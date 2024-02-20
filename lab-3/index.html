@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Font Web Page</title>
+    <!-- Import Google Fonts: Audiowide for headings, Alex Brush for body text, and Protest Guerrilla for the thank you message -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Audiowide&family=Alex+Brush&family=Protest+Guerrilla&display=swap">
+    <style>
+        body {
+            /* Set the font for the body text to Alex Brush */
+            font-family: 'Alex Brush', cursive;
+            background-color: rgb(255, 204, 204);
+            margin: 0;
+            padding: 0;
+        }
+
+        .unique-font {
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            /* Set the font for headings to Audiowide */
+            font-family: 'Audiowide', sans-serif;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.8em;
+            color: #3399FF;
+        }
+
+        /* Set the font for the thank you message to Protest Guerrilla */
+        p.thank-you {
+            font-family: 'Protest Guerrilla', cursive;
+            font-size: 1.2em;
+            color: #00008B;
+        }
+
+        /* Style for the footer with purple color */
+        footer {
+            background-color: #800080; /* Purple color */
+            color: #fff; /* White text on purple background */
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="unique-font">
+        <h1>This is LAB3 Serving Fonts</h1>
+        <p><b>Hi and welcome to my website!</b></p>
+        <p>I have created a basic HTML page with CSS styling of fonts that are downloaded from Google Fonts. After downloading, I have installed the fonts and changed them in my HTML code. The body text is styled with the Alex Brush font, and the headings use the Audiowide font. Finally, I've added a footer that updates if there are any changes made to the website.</p>
+        <!-- Apply the Protest Guerrilla font to the "Thank you" message -->
+        <p class="thank-you"><i>Thank you for visiting!</i></p>
+    </div>
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
