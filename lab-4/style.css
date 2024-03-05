@@ -1,0 +1,19 @@
+body {
+      font-family: 'Maiandra GD', sans-serif;
+      color:#FFFFFF;
+    }
+
+    h1 {
+      font-family: 'CASTELLAR', serif; 
+      color:#FF0000;
+    }
+
+    article {
+      background-color: lightgreen;
+      padding: 20px; 
+      margin: 20px; 
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
